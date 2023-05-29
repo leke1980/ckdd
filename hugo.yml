@@ -1,0 +1,4 @@
+baseURL: 'http://leke1980.github.io/blog/'
+languageCode: 'en-us'
+title: '博客名字'
+theme: 'PaperMod'
