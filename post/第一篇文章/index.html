@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>第一篇文章 | 博客名字</title>
+<meta name="keywords" content="">
+<meta name="description" content="新建仓库 新建仓库名 hugo new site 新建仓库名 cd blog echo &ldquo;# blog&rdquo; &raquo; README.md git init git add . git commit -m &ldquo;更新&rdquo; git branch -M main git remote add origin git@github.com:leke1980/blog.git git push -u origin main 创建分支 gh-pages 开通权限 Workflow permissions 创建文件夹 mkdir -p .github/workflows 创建deploy.yml touch .github/workflows/deploy.yml 粘贴代码到deploy.yml name: Publish to GH Pages on: push: branches: - main pull_request: jobs: deploy: runs-on: ubuntu-latest steps: - name: Checkout source uses: actions/checkout@v3 with: submodules: true - name: Checkout destination uses: actions/checkout@v3 if: github.">
+<meta name="author" content="">
+<link rel="canonical" href="http://leke1980.github.io/blog/post/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/">
+<link crossorigin="anonymous" href="/blog/assets/css/stylesheet.3613efbd0b1772781e8f49935e973cae632a7f61471c05b17be155505ccf87b5.css" integrity="sha256-NhPvvQsXcngej0mTXpc8rmMqf2FHHAWxe&#43;FVUFzPh7U=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/blog/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js" integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG&#43;9vmJ0cTS&#43;ovo0FeA="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="http://leke1980.github.io/blog/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://leke1980.github.io/blog/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://leke1980.github.io/blog/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://leke1980.github.io/blog/apple-touch-icon.png">
+<link rel="mask-icon" href="http://leke1980.github.io/blog/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="第一篇文章" />
+<meta property="og:description" content="新建仓库 新建仓库名 hugo new site 新建仓库名 cd blog echo &ldquo;# blog&rdquo; &raquo; README.md git init git add . git commit -m &ldquo;更新&rdquo; git branch -M main git remote add origin git@github.com:leke1980/blog.git git push -u origin main 创建分支 gh-pages 开通权限 Workflow permissions 创建文件夹 mkdir -p .github/workflows 创建deploy.yml touch .github/workflows/deploy.yml 粘贴代码到deploy.yml name: Publish to GH Pages on: push: branches: - main pull_request: jobs: deploy: runs-on: ubuntu-latest steps: - name: Checkout source uses: actions/checkout@v3 with: submodules: true - name: Checkout destination uses: actions/checkout@v3 if: github." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://leke1980.github.io/blog/post/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2023-05-29T20:47:21+08:00" />
+<meta property="article:modified_time" content="2023-05-29T20:47:21+08:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="第一篇文章"/>
+<meta name="twitter:description" content="新建仓库 新建仓库名 hugo new site 新建仓库名 cd blog echo &ldquo;# blog&rdquo; &raquo; README.md git init git add . git commit -m &ldquo;更新&rdquo; git branch -M main git remote add origin git@github.com:leke1980/blog.git git push -u origin main 创建分支 gh-pages 开通权限 Workflow permissions 创建文件夹 mkdir -p .github/workflows 创建deploy.yml touch .github/workflows/deploy.yml 粘贴代码到deploy.yml name: Publish to GH Pages on: push: branches: - main pull_request: jobs: deploy: runs-on: ubuntu-latest steps: - name: Checkout source uses: actions/checkout@v3 with: submodules: true - name: Checkout destination uses: actions/checkout@v3 if: github."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "http://leke1980.github.io/blog/post/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "第一篇文章",
+      "item": "http://leke1980.github.io/blog/post/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "第一篇文章",
+  "name": "第一篇文章",
+  "description": "新建仓库 新建仓库名 hugo new site 新建仓库名 cd blog echo \u0026ldquo;# blog\u0026rdquo; \u0026raquo; README.md git init git add . git commit -m \u0026ldquo;更新\u0026rdquo; git branch -M main git remote add origin git@github.com:leke1980/blog.git git push -u origin main 创建分支 gh-pages 开通权限 Workflow permissions 创建文件夹 mkdir -p .github/workflows 创建deploy.yml touch .github/workflows/deploy.yml 粘贴代码到deploy.yml name: Publish to GH Pages on: push: branches: - main pull_request: jobs: deploy: runs-on: ubuntu-latest steps: - name: Checkout source uses: actions/checkout@v3 with: submodules: true - name: Checkout destination uses: actions/checkout@v3 if: github.",
+  "keywords": [
+    
+  ],
+  "articleBody": " 新建仓库 新建仓库名 hugo new site 新建仓库名 cd blog echo “# blog” » README.md git init git add . git commit -m “更新” git branch -M main git remote add origin git@github.com:leke1980/blog.git git push -u origin main 创建分支 gh-pages 开通权限 Workflow permissions 创建文件夹 mkdir -p .github/workflows 创建deploy.yml touch .github/workflows/deploy.yml 粘贴代码到deploy.yml name: Publish to GH Pages on: push: branches: - main pull_request: jobs: deploy: runs-on: ubuntu-latest steps: - name: Checkout source uses: actions/checkout@v3 with: submodules: true - name: Checkout destination uses: actions/checkout@v3 if: github.ref == 'refs/heads/main' with: ref: gh-pages path: built-site - name: Setup Hugo run: | curl -L -o /tmp/hugo.tar.gz 'https://github.com/gohugoio/hugo/releases/download/v0.110.0/hugo_extended_0.110.0_linux-amd64.tar.gz' tar -C ${RUNNER_TEMP} -zxvf /tmp/hugo.tar.gz hugo - name: Build run: ${RUNNER_TEMP}/hugo - name: Deploy if: github.ref == 'refs/heads/main' run: | cp -R public/* ${GITHUB_WORKSPACE}/built-site/ cd ${GITHUB_WORKSPACE}/built-site git add . git config user.name 'dhij' git config user.email 'davidhwang.ij@gmail.com' git commit -m 'Updated site' git push 下载模板\ngit submodule add –depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod\n修改网站配置文件\nmv hugo.toml hugo.yml\nbaseURL: 'http://leke1980.github.io/blog/' languageCode: 'en-us' title: '博客名字' theme: 'PaperMod' 修改文章模板 archetypes/default.md --- title: \"{{ replace .Name \"-\" \" \" | title }}\" date: {{ .Date }} draft: false --- 发布文章\nhugo new post/第一篇文章.md\ngit加入\ngit add .\ngit合并\ngit commit -m “ok”\ngit推送\ngit push\n",
+  "wordCount" : "199",
+  "inLanguage": "en",
+  "datePublished": "2023-05-29T20:47:21+08:00",
+  "dateModified": "2023-05-29T20:47:21+08:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://leke1980.github.io/blog/post/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "博客名字",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://leke1980.github.io/blog/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://leke1980.github.io/blog/" accesskey="h" title="博客名字 (Alt + H)">博客名字</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title">
+      第一篇文章
+    </h1>
+    <div class="post-meta"><span title='2023-05-29 20:47:21 +0800 +0800'>May 29, 2023</span>
+
+</div>
+  </header> 
+  <div class="post-content"><ul>
+<li><a href="https://github.com/new">新建仓库</a></li>
+<li>新建仓库名</li>
+<li>hugo new site 新建仓库名</li>
+<li>cd blog</li>
+<li>echo &ldquo;# blog&rdquo; &raquo; README.md</li>
+<li>git init</li>
+<li>git add .</li>
+<li>git commit -m &ldquo;更新&rdquo;</li>
+<li>git branch -M main</li>
+<li>git remote add origin <a href="mailto:git@github.com">git@github.com</a>:leke1980/blog.git</li>
+<li>git push -u origin main</li>
+</ul>
+<hr>
+<ul>
+<li>创建分支 gh-pages</li>
+<li>开通权限 Workflow permissions</li>
+</ul>
+<hr>
+<ul>
+<li>创建文件夹</li>
+<li>mkdir -p .github/workflows</li>
+<li>创建deploy.yml</li>
+<li>touch .github/workflows/deploy.yml</li>
+<li>粘贴代码到deploy.yml</li>
+</ul>
+<pre tabindex="0"><code>name: Publish to GH Pages
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v3
+        with:
+          submodules: true
+
+      - name: Checkout destination
+        uses: actions/checkout@v3
+        if: github.ref == &#39;refs/heads/main&#39;
+        with:
+          ref: gh-pages
+          path: built-site
+
+      - name: Setup Hugo
+        run: |
+          curl -L -o /tmp/hugo.tar.gz &#39;https://github.com/gohugoio/hugo/releases/download/v0.110.0/hugo_extended_0.110.0_linux-amd64.tar.gz&#39;
+          tar -C ${RUNNER_TEMP} -zxvf /tmp/hugo.tar.gz hugo          
+      - name: Build
+        run: ${RUNNER_TEMP}/hugo
+
+      - name: Deploy
+        if: github.ref == &#39;refs/heads/main&#39;
+        run: |
+          cp -R public/* ${GITHUB_WORKSPACE}/built-site/
+          cd ${GITHUB_WORKSPACE}/built-site
+          git add .
+          git config user.name &#39;dhij&#39;
+          git config user.email &#39;davidhwang.ij@gmail.com&#39;
+          git commit -m &#39;Updated site&#39;
+          git push
+</code></pre><ul>
+<li>
+<p>下载模板</p>
+</li>
+<li>
+<p>git submodule add &ndash;depth=1 <a href="https://github.com/adityatelange/hugo-PaperMod.git">https://github.com/adityatelange/hugo-PaperMod.git</a> themes/PaperMod</p>
+</li>
+<li>
+<p>修改网站配置文件</p>
+</li>
+<li>
+<p>mv hugo.toml hugo.yml</p>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-md" data-lang="md"><span style="display:flex;"><span>baseURL: &#39;http://leke1980.github.io/blog/&#39;
+</span></span><span style="display:flex;"><span>languageCode: &#39;en-us&#39;
+</span></span><span style="display:flex;"><span>title: &#39;博客名字&#39;
+</span></span><span style="display:flex;"><span>theme: &#39;PaperMod&#39;
+</span></span></code></pre></div><ul>
+<li>修改文章模板 archetypes/default.md</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-md" data-lang="md"><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span>title: &#34;{{ replace .Name &#34;-&#34; &#34; &#34; | title }}&#34;
+</span></span><span style="display:flex;"><span>date: {{ .Date }}
+</span></span><span style="display:flex;"><span>draft: false
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>---
+</span></span></code></pre></div><ul>
+<li>
+<p>发布文章</p>
+</li>
+<li>
+<p>hugo new post/第一篇文章.md</p>
+</li>
+<li>
+<p>git加入</p>
+</li>
+<li>
+<p>git add .</p>
+</li>
+<li>
+<p>git合并</p>
+</li>
+<li>
+<p>git commit -m &ldquo;ok&rdquo;</p>
+</li>
+<li>
+<p>git推送</p>
+</li>
+<li>
+<p>git push</p>
+</li>
+</ul>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2023 <a href="http://leke1980.github.io/blog/">博客名字</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

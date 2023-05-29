@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on 博客名字</title>
+    <link>http://leke1980.github.io/blog/post/</link>
+    <description>Recent content in Posts on 博客名字</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 29 May 2023 20:47:21 +0800</lastBuildDate><atom:link href="http://leke1980.github.io/blog/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>第一篇文章</title>
+      <link>http://leke1980.github.io/blog/post/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</link>
+      <pubDate>Mon, 29 May 2023 20:47:21 +0800</pubDate>
+      
+      <guid>http://leke1980.github.io/blog/post/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</guid>
+      <description>新建仓库 新建仓库名 hugo new site 新建仓库名 cd blog echo &amp;ldquo;# blog&amp;rdquo; &amp;raquo; README.md git init git add . git commit -m &amp;ldquo;更新&amp;rdquo; git branch -M main git remote add origin git@github.com:leke1980/blog.git git push -u origin main 创建分支 gh-pages 开通权限 Workflow permissions 创建文件夹 mkdir -p .github/workflows 创建deploy.yml touch .github/workflows/deploy.yml 粘贴代码到deploy.yml name: Publish to GH Pages on: push: branches: - main pull_request: jobs: deploy: runs-on: ubuntu-latest steps: - name: Checkout source uses: actions/checkout@v3 with: submodules: true - name: Checkout destination uses: actions/checkout@v3 if: github.</description>
+    </item>
+    
+  </channel>
+</rss>
